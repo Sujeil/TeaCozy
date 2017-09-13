@@ -4,28 +4,45 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
+
 }
 
-head{
+header{
   display: inline-block;
   position: fixed;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  top: 0;
 }
 
 .logo{
+    width: 70%;
+}
+
+.logo img{
   left: 10px;
+  height: 50px;
 }
 
-head nav a{
+.navigation{
+  display: inline-flex;
+}
+
+a{
   text-decoration: underline;
+  padding-left:20px;
+  color: seashell;
 }
-.mission{}
 
-.featured{}
+#mission{}
 
-.locations{}
+#featured{}
+
+#locations{}
 
 footer{}
