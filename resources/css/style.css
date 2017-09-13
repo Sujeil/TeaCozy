@@ -68,9 +68,20 @@ header{
     margin-top: 300px;
 }
 
+.featured{
+  display: flex;
+  justify-content: center;
+}
 
-.featured{}
+#monthtext{
+  width: 1000px;
+  padding-top: 30px;
+}
 
+.teapics{
+  display: flex;
+  flex-wrap: wrap;
+}
 .locations{}
 
 footer{}
