@@ -4,7 +4,18 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
 
+a{
+  text-decoration: underline;
+  padding-left:20px;
+  color: seashell;
+}
+
+h2, h4{
+  text-align: center;
+  display: block;
+  font-weight: bold;
 }
 
 header{
@@ -33,16 +44,33 @@ header{
   display: inline-flex;
 }
 
-a{
-  text-decoration: underline;
-  padding-left:20px;
-  color: seashell;
+.mission{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  padding-top: 70px;
 }
 
-#mission{}
+.missioncontent{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+}
 
-#featured{}
+.missionconentbackground{
+  background-color: black;
+  height: 110px;
+}
 
-#locations{}
+.missionconentbackground h2{
+    margin-top: 300px;
+}
+
+
+.featured{}
+
+.locations{}
 
 footer{}
