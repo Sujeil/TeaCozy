@@ -33,7 +33,7 @@ header{
 }
 
 .logo{
-  width: 70%;
+
   text-align: left;
 }
 
@@ -44,6 +44,8 @@ header{
 
 .navigation{
   display: inline-flex;
+  position: absolute;
+  right: 20px;
 }
 
 .flexcenter{
