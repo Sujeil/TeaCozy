@@ -13,7 +13,7 @@ a{
   color: seashell;
 }
 
-h2, h3, h4{
+h2, h3, h4, h5{
   display: block;
   font-weight: bold;
 }
@@ -103,6 +103,7 @@ header{
   height: 500px;
   width: 100%;
   padding-top: 50px;
+  padding-bottom: 0;
 }
 
 .locscontent{
@@ -121,5 +122,16 @@ header{
   opacity: 1;
 }
 
+#footinfo{
+  height: 200px;
+  flex-direction: column;
+  top: 0;
+}
 
-footer{}
+#footinfo h5{
+    margin: 10px;
+  }
+
+#copy{
+  text-align: left;
+}
